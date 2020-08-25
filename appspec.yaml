@@ -3,7 +3,7 @@ version: 1.0
 phases:
   install:
     runtime-versions:
-      java: openjdk8
+      java: corretto11
 
 Resources:
   - TargetService:
