@@ -1,9 +1,5 @@
 version: 1.0
 
-phases:
-  install:
-    runtime-versions:
-      java: corretto8
 
 Resources:
   - TargetService:
