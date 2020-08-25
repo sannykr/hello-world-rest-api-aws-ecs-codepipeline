@@ -1,4 +1,10 @@
 version: 1.0
+
+phases:
+  install:
+    runtime-versions:
+      java: openjdk8
+
 Resources:
   - TargetService:
       Type: AWS::ECS::Service
